@@ -43,3 +43,7 @@ rec_frog: ## run rec_frog
 knapsack: ## run knapsack
 	g++ -std=c++11 knapsack.cpp
 	echo '6 10 2 3 1 2 3 6 2 1 1 3 5 85' | ./a.out
+
+edit: ## run edit
+	g++ -std=c++11 edit.cpp
+	echo 'logistic algorithm' | ./a.out

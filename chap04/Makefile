@@ -27,3 +27,7 @@ subsum: ## run subsum
 frog: ## run frog
 	g++ frog.cpp
 	echo '7 2 9 4 5 1 6 10' | ./a.out
+
+pull: ## run pull
+	g++ pull.cpp
+	echo '7 2 9 4 5 1 6 10' | ./a.out

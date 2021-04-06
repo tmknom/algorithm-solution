@@ -23,3 +23,7 @@ memo: ## run memo
 subsum: ## run subsum
 	g++ subsum.cpp
 	echo '5 10 1 2 4 5 11' | ./a.out
+
+frog: ## run frog
+	g++ frog.cpp
+	echo '7 2 9 4 5 1 6 10' | ./a.out

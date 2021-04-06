@@ -7,3 +7,7 @@ sum: ## run sum
 euclid: ## run euclid
 	g++ euclid.cpp
 	./a.out
+
+fibonacci: ## run fibonacci
+	g++ fibonacci.cpp
+	./a.out

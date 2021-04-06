@@ -11,3 +11,7 @@ euclid: ## run euclid
 fibonacci: ## run fibonacci
 	g++ fibonacci.cpp
 	./a.out
+
+for: ## run for
+	g++ for.cpp
+	./a.out

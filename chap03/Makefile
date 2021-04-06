@@ -13,3 +13,8 @@ min_linear_search: ## run min_linear_search
 pair_linear_search: ## run pair_linear_search
 	g++ pair_linear_search.cpp
 	echo '3 10 8 5 4 4 1 9' | ./a.out
+
+bit: ## run bit
+	g++ bit.cpp
+	echo '5 10 1 2 4 5 11' | ./a.out
+	echo '4 10 1 5 8 11' | ./a.out

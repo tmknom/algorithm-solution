@@ -19,3 +19,7 @@ for: ## run for
 memo: ## run memo
 	g++ memo.cpp
 	./a.out
+
+subsum: ## run subsum
+	g++ subsum.cpp
+	echo '5 10 1 2 4 5 11' | ./a.out

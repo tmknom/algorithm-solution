@@ -15,3 +15,7 @@ fibonacci: ## run fibonacci
 for: ## run for
 	g++ for.cpp
 	./a.out
+
+memo: ## run memo
+	g++ memo.cpp
+	./a.out

@@ -35,3 +35,7 @@ pull: ## run pull
 push: ## run push
 	g++ push.cpp
 	echo '7 2 9 4 5 1 6 10' | ./a.out
+
+rec_frog: ## run rec_frog
+	g++ rec_frog.cpp
+	echo '7 2 9 4 5 1 6 10' | ./a.out

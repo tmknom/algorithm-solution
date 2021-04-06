@@ -47,3 +47,7 @@ knapsack: ## run knapsack
 edit: ## run edit
 	g++ -std=c++11 edit.cpp
 	echo 'logistic algorithm' | ./a.out
+
+split: ## run split
+	g++ -std=c++11 split.cpp
+	echo '5 1 2 3 4 5 6 7 8 9 10' | ./a.out
